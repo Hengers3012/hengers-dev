@@ -1,54 +1,33 @@
-# Astro Starter Kit: Basics
 
-```sh
-npm create astro@latest -- --template basics
+<div align="center">
+<h1>MI PORTAFOLIO PERSONAL</h1>
+<h3>USANDO ASTRO, SVELTE, TYPESCRIPT, TAILWIND Y VERCEL</h3>
+</div>
+
+
+Antes de comenzar, asegúrate de tener instalados los siguientes requisitos previos en tu sistema:
+
+- **Node.js** (versión 16.12.0 o superior)
+- **Visual Studio Code** con las siguientes extensiones: "astro-vscode," "prettier-vscode," "svelte-vscode," y "tailwindcss-intellisense."
+
+### Paso 1: Configuración Inicial del Proyecto Astro
+
+Comencemos creando un nuevo proyecto Astro con el siguiente comando:
+
+```shell
+npm create astro@latest
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Astro te solicitará detalles específicos. Sigue las instrucciones y elige las opciones que mejor se adapten a tus necesidades. Es fundamental seleccionar TypeScript y mantener la configuración predeterminada para una configuración coherente.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+### Paso 2: Agregar Svelte, Tailwind CSS, Vercel y Prettier
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+A continuación, incorporaremos las integraciones deseadas en nuestro proyecto. Ejecuta los siguientes comandos desde el directorio recién creado de Astro, optando por las opciones predeterminadas cuando se te solicite:
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+```shell
+npx astro add svelte
+npx astro add tailwindcss
+npx astro add vercel
+npm install prettier prettier-plugin-astro prettier-plugin-svelte prettier-plugin-tailwindcss
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
