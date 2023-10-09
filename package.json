@@ -16,11 +16,13 @@
     "@astrojs/vercel": "^5.0.2",
     "astro": "^3.2.3",
     "prettier": "^3.0.3",
-    "prettier-plugin-astro": "^0.12.0",
-    "prettier-plugin-svelte": "^3.0.3",
-    "prettier-plugin-tailwindcss": "^0.5.5",
     "svelte": "^4.2.1",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "prettier-plugin-astro": "^0.12.0",
+    "prettier-plugin-svelte": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.5"
   }
 }
