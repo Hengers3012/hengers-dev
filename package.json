@@ -1,0 +1,26 @@
+{
+  "name": "hengers-dev",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro check --watch & astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.2.0",
+    "@astrojs/svelte": "^4.0.3",
+    "@astrojs/tailwind": "^5.0.1",
+    "@astrojs/vercel": "^5.0.2",
+    "astro": "^3.2.3",
+    "prettier": "^3.0.3",
+    "prettier-plugin-astro": "^0.12.0",
+    "prettier-plugin-svelte": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.5",
+    "svelte": "^4.2.1",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.2.2"
+  }
+}
